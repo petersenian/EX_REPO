@@ -2,13 +2,14 @@
 color 0a
 cls
 
-ping localhost nul> 2n 
+ping localhost nul> File.txt
+ping localhost nul> Save.dat
 
 :Main_Menu 
 echo Hello!
 echo What is your name?
 set/p name=
-echo Hello %name%!
+echo Hello %name%! Nice to meet you %name%.
 pause 
 cls
 echo GoodBye now!
