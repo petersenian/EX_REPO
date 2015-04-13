@@ -12,5 +12,8 @@ set/p name=
 echo Hello %name%! Nice to meet you %name%.
 pause 
 cls
-echo GoodBye now!
-pause
+goto LV1
+
+:LV1
+echo Level 1
+echo 
