@@ -13,3 +13,4 @@ echo Hello %name%! Nice to meet you %name%.
 pause 
 cls
 echo GoodBye now!
+pause
